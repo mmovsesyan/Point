@@ -111,9 +111,6 @@ public class Point implements Comparable<Point> {
 
     /**
      * C: Диаметр множества(setDiam)
-     * Выведите диаметр данного множества – максимальное расстояние между двумя данными точками. Для решения
-     * этой задачи реализуйте и используйте перегрузку метода dist, который принимает на вход вторую
-     * точку и возвращает расстояние между двумя данными точками.
      */
     public static double setDiam(Point[] points) {
         double maxDistance = Double.MIN_VALUE;
